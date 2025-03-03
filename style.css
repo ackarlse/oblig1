@@ -26,6 +26,7 @@ body {
 
 #resource_archive {
   display: flex;
+  flex-direction: column;
   background-color: #fff;
   padding: 1rem;
 }
