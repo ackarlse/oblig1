@@ -98,7 +98,7 @@ const resources = [
 let nav = "";
 
 resources.map((item, index) => {
-  nav += `<button>${item.category}</button>`;
+  nav += `<button onclick="showCat(${index})">${item.category}</button>`;
 });
 
 document.getElementById("category-nav").innerHTML = nav;
