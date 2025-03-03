@@ -15,4 +15,8 @@ body {
     border: 1px solid #000;
     padding: 1rem;
   }
+
+  main {
+    display: flek;
+  }
 }
